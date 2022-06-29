@@ -1,7 +1,7 @@
 //Seu JavaScript de validação aqui
 
 const inputs = document.querySelectorAll('input, textarea')
-const enviar = document.querySelector('[nome="enviar"]')
+const enviar = document.querySelector('[nome="formcontato__botao"]')
 
 inputs.forEach(input => {
     input.addEventListener('blur', (evento) => {
