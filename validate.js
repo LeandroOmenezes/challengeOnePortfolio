@@ -129,3 +129,4 @@ function verificaMensagem(input) {
 
     input.setCustomValidity(mensagem)
 }
+    alert("Formulário enviado!");
