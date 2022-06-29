@@ -10,7 +10,7 @@ inputs.forEach(input => {
     })
 })
 
-function valida(input) {
+function validar(input) {
     const tiposDeInput = input.dataset.tipo
 
     if(validadores[tiposDeInput]) {
