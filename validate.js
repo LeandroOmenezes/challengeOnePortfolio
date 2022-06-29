@@ -5,7 +5,7 @@ const enviar = document.querySelector('[nome="enviar"]')
 
 inputs.forEach(input => {
     input.addEventListener('blur', (evento) => {
-        valida(evento.target)
+        validar(evento.target)
         verificaCamposVazios()
     })
 })
