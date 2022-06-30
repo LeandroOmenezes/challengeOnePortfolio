@@ -311,15 +311,16 @@
                             rápido possível. </h3>
     
                         <form class="formcontato__form">
-                            <input class="formcontato__input" type="text" id="name" placeholder="Nome">
-                            <input class="formcontato__input" type="email" id="email" placeholder="Email">
-                            <input class="formcontato__input" type="text" id="subject" placeholder="Assunto">
-                            <textarea class="formcontato__textarea" rows="5" cols="40" id="message" name="mensagem"
-                                placeholder="Mensagem"></textarea>
-    
-                            <div class="formcontato__warn">
-                            <p class="formcontato__warnings"></p>
-                            <button type="button" class="formcontato__botao" onclick="validar()">Enviar mensagem</button>
+                           <input class="formcontato__input" type="text" id="nome" placeholder="Nome completo">
+                            <input class="formcontato__input" type="email" id="email" placeholder="Ex: nome@seudomínio.com">
+                            <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
+                            <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem deve conter no max 300 caracteres."></textarea>
+                            <button class="formcontato__botao" id="btn"
+                             onclick="validateForm(), 
+                             validaEmail(), 
+                             validaAssunto(),
+                             validaMensagem()
+                            ">Enviar mensagem</button>
                             </div>
                         </form>
                     </div>
