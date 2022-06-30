@@ -21,7 +21,7 @@ function validaEmail() {
 function validaAssunto() {
     let inputAssunto = document.getElementById("assunto").value;
     if (inputAssunto === "") {
-        alert("O campo Assunto deve ser preenchido")
+        alert("O campo *Assunto* deve ser preenchido")
     }
     if (inputAssunto.length > 50){
         alert("Máximo de 50 caracteres no campo *Assunto*")
