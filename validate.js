@@ -4,10 +4,10 @@
 function validateForm() {
     let inputNome = document.getElementById("nome").value;
     if (inputNome === "") {
-        alert("O campo *Nome* deve ser preenchido")
+        alert("O campo *Nome completo* deve ser preenchido")
     }
     if (inputNome.length > 50){
-        alert("Máximo de 50 caracteres no campo *Nome*")
+        alert("Máximo de 50 caracteres no campo *Nome completo*")
     }
 }
 //valida campo email
