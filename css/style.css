@@ -185,6 +185,7 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sessão About*/
 .about {
     background-color: var(--background-base);
+    margin-bottom: 2rem;
 }
 
 .about__title {
