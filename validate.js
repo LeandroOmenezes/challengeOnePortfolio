@@ -35,8 +35,6 @@ function validaAssunto() {
             alert("O campo *Mensagem* deve ser preenchido")
         }
         if (inputMensagem.length > 300){
-            alert("Máximo de 300 caracteres no campo *Mensagem*")
+            alert("Máximo de 50 caracteres no campo *Mensagem*")
         }
     }
-
-   
